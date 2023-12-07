@@ -10,3 +10,4 @@ System.Console.WriteLine($"Succesfully converted! {age}");
 int keschasAge = 3;
 int ageDiference = age -keschasAge;
 System.Console.WriteLine($"The difference between your and Kescha's age is {ageDiference}"); 
+System.Console.WriteLine($"Sen Keschadan ulkensen' {ageDiference>0}");
