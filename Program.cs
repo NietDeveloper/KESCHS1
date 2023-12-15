@@ -10,4 +10,15 @@ System.Console.WriteLine($"Succesfully converted! {age}");
 int keschasAge = 3;
 int ageDiference = age -keschasAge;
 System.Console.WriteLine($"The difference between your and Kescha's age is {ageDiference}"); 
-System.Console.WriteLine($"Sen Keschadan ulkensen' {ageDiference>0}");
+if(age>keschasAge)
+{
+    System.Console.WriteLine("Siz keschadan u'lkensiz.");
+}
+else if( age==keschasAge )
+{
+    System.Console.WriteLine("Sizdin' jasin'iz kescha menen ten'");
+}
+else
+{
+    System.Console.WriteLine("Siz keschadan kishisiz");
+}
